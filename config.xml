@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <widget version="1.0.0">
-    <name>App-Name</name>
+    <name>TIC TAC TOE</name>
     <description>
-        App-Beschreibung
+        TIC TAC TOE
     </description>
     <author>
-        Dein Name
+        Joshua Trapani
     </author>
 
     <!-- General settings -->
