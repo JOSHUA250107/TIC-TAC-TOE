@@ -1,0 +1,129 @@
+/* Allgemeine Style-Einstellungen (HTML, Body) */
+
+/* Eigene Schriftart (optional)*/
+@font-face {
+  font-family: 'Black Ops One';
+  src: url(BlackOpsOne.ttf);
+}
+
+html,body{
+  font-family: 'Black Ops One',serif;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin:0;
+  padding:0;
+  background: #222222;
+  color: #FACC2E;
+  font-size:20px;
+  text-align: center;
+}
+
+a {
+  color: #FACC2E;
+  text-decoration: none;
+}
+
+
+/* Startseite */
+#logo{
+  width: 75vw;
+  height: 75vw;
+  margin: 4vw 12.5vw 0 12.5vw;
+  background: url(logo.png);
+  background-size: cover;
+  font-size: 10vw;
+}
+
+.option-button, .restart-button{
+  width: 60vw;
+  margin: 4vw 20vw;
+  padding: 2vw 0;
+  border: 0.75vw solid #FACC2E;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+  font-size: 4vw;
+}
+
+.option-button:active{
+  background: #FACC2E;
+  color:#222222;
+}
+.restart-button{
+  border: 0.75vw solid #000000;
+  background: #FACC2E;
+  color: #000000;
+}
+.restart-button:active{
+  background: #000000;
+  color: #FACC2E;
+}
+
+.copyright{
+  clear: left;
+  width: 50vw;
+  margin: 0 25vw;
+  padding-top: 6vw;
+  font-size: 2vw;
+}
+
+
+/* Titel */
+#title{
+  width: 100vw;
+  height: auto;
+  margin: 5vw 0;
+  text-align: center;
+  font-size: 10vw;
+}
+
+#player{
+  width: 20vw;
+  height: auto;
+  margin: 10vw 40vw;
+  padding: 2vw 0;
+  border: 0.25vw solid #FACC2E;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+  font-size: 3vw;
+}
+
+/* Felder */
+#fields{
+  position: relative;
+  float: left;
+  clear: left;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.field{
+  display:inline-block;
+  vertical-align: top;
+  width: 25vw;
+  height: 25vw;
+  margin: 3vw;
+  box-sizing: border-box;
+  border:0;
+  border-radius: 5vw;
+  background: #FACC2E;
+  color:#000000;
+  font-size: 23vw;
+}
+
+#winner{
+  position: absolute;
+  display: none;
+  top:0;
+  left:0;
+  float: left;
+  clear: left;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  color:#000000;
+  background: #FACC2E;
+  font-size: 13vw;
+  padding: 10vw 0 0 0;
+}
