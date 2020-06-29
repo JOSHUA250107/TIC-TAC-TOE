@@ -3,14 +3,15 @@
 <html>
 
 	<head>
-		<title>simpleTicTacToe</title>
+		<title>SimpleTicTacToe</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/style.css">
 		<script type="text/javascript"  src="js/tictactoe.js"></script>
 	</head>
 
-	<body>
-		<div id="title">simpleTicTacToe</div>
+	<!-- Führe Funktion 'addEventListeners()' aus, wenn body geladen ist -->
+	<body onload="addEventListeners()">
+		<div id="title">Simple<br>TicTacToe</div>
 		<div id="player">Spieler 1</div>
 		<div id="fields">
 			<div class="field" id="0"></div>
@@ -22,6 +23,11 @@
 			<div class="field" id="6"></div>
 			<div class="field" id="7"></div>
 			<div class="field" id="8"></div>
+			<a href="index.html">
+					<div class="restart-button">
+						zurück zur Startseite
+					</div>
+				</a>
 		</div>
 
 		<div id="winner">
@@ -31,6 +37,11 @@
 					neu starten
 				</div>
 			</a>
+			<a href="index.html">
+					<div class="restart-button">
+						zurück zur Startseite
+					</div>
+				</a>
 		</div>
 	</body>
 	
